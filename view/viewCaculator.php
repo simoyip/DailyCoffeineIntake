@@ -29,7 +29,7 @@ Use this planne to calculate your daily coffeine intake
 <div id='total_serving_display' class="counterview">
 <div id='total_serving' class='countervalue'>0
 </div>
-<div id='total_serving_unit' class='counterunit'>Serving
+<div id='total_serving_unit' class='counterunit'>Serving(s)
 </div>
 </div>
 
@@ -57,7 +57,7 @@ echo "Coffeine in mg";
 echo "</div>";
 
 echo "<div id='list_header' class='serving'>";
-echo "Serving";
+echo "Serving(s)";
 echo "</div>";
 
 echo "<div id='list_header' class='intake_limit'>";
