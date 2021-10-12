@@ -1,0 +1,88 @@
+body{
+   font-size: 12px !important;
+   color: #000 !important;
+   font-family: Arial !important;
+
+}
+.container{
+	max-width: 750px;
+	margin:auto;
+	width:100%;
+}
+.instruction{
+	max-width: 750px;
+	margin:auto;
+	min-height: 50px;
+	padding : 4px;
+	border: 1px dotted rgba(10,10,10,0.9);
+}
+h3{
+	font-size:20px;
+	text-align:center;
+}
+.listview{
+    max-width: 750px;
+    width:100%;
+}
+hr{
+    max-width: 750px;
+    width:100%;
+}
+.listview .row{
+    max-height:40px;
+    width:750px;
+    float:left;
+	border-bottom: 1px dotted rgba(10,10,10,0.9);
+    }
+.listview .row:hover { 
+  	background-color: rgba(25,255,255,0.6);
+	cursor:pointer;
+}
+.listview .row div{
+    float:left;
+    width:100px;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+    }
+.listview .row div.drink_name{
+    width:150px;
+    }
+#counter{
+    height:84px;
+    width:100%;
+    max-width:800px;
+}
+.counterview{
+    width:80px;
+    height:80px;
+    background-color:rgba(100,100,100,0.5);
+    float:left;
+    padding:2px;
+    margin:2px;
+	border:1px solid rgba(10,10,10,0.9);
+}
+.counterview .countervalue{
+    width:80px;
+    height:50px;
+    font-size:30px;
+    text-align:center;
+    line-height:50px;
+    padding:2px;
+}
+.counterview .counterunit{
+    size:14px;
+    width:80px;
+    height:20px;
+    text-align:center;
+    line-height:14px;
+}
+.resetbutton{
+	line-height:80px;
+	font-size:30px;
+}
+.resetbutton:hover { 
+  	background-color: rgba(105,105,105,0.8);
+	color:white;
+	cursor:pointer;
+}

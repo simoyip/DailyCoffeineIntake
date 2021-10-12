@@ -1,18 +1,15 @@
-<?php include("includes/config.php");?>
 <!DOCTYPE html>
 <html>
 <head>
-	<?php include("includes/head-tag-contents.php");?>
-</head>
-<body>
+<link rel="stylesheet" href="./css/styles.css">
+<script src="./js/jquery.js"></script>
+<script src="./js/script.js"></script>
+<?php
+include_once("config/config.php");
+include_once("controller/Controller.php");
+  
+$controller = new Controller();
+$controller->invoke();
 
-<?php include("includes/header.php");?>
-<?php include("includes/navigation.php");?>
+?>
 
-<div class="container" id="main-content">
-</div>
-
-<?php include("includes/footer.php");?>
-
-</body>
-</html>
