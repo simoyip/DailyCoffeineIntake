@@ -57,7 +57,7 @@ function displayRemainingIntake(value){
 function countTotalIntake(coffeineAmt){
 
     if ((totalIntake+coffeineAmt)>totalLimit){
-        alert("Limit exceed, current total intake : "+totalIntake);
+        alert("Limit exceeded, current total intake : "+totalIntake);
         return false;
     }else{
         return true;
